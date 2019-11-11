@@ -1,0 +1,43 @@
+body {
+  font-size: 12px;
+  font-family: "Oxygen", sans-serif;
+  color: rgb(14, 13, 13);
+}
+
+
+/** HEADER **/
+#header-nav {
+  border-radius: 0;
+  border: 2px solid rgb(48, 47, 47);
+  height: 100px;
+}
+
+.navbar-brand {
+  vertical-align: middle;
+  font-size: 2.5em;
+  font-weight: bold;  
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: rgb(14, 13, 13);
+  text-align: center;
+  font-size: 1.8em;  
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #070707;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -50px;
+}
+/*
