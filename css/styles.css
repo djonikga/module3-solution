@@ -6,15 +6,16 @@ body {
 
 
 /** HEADER **/
-#header-nav {
+#header-menu {
   border-radius: 0;
   border: 2px solid rgb(48, 47, 47);
+  margin-bottom: 0px;
+  background-color: #a7a7a7;
 }
 
 .navbar-brand {
   height: 100px;
 }
-
 
 .navbar-brand h1 {
   font-size: 2.5em;
@@ -24,22 +25,26 @@ body {
   margin-bottom: 0px;
 }
 
-#nav-list {
+#nav-menu {
   margin-top: 0px;
   margin-bottom: 0px;
+  background-color: white;  
 }
 
-#nav-list a {
+#nav-menu-active{
+  background-color: #817f7f;  
+}
+
+#nav-menu a {
   color: rgb(14, 13, 13);
   text-align: center;
   font-size: 1.8em;  
   border: 1px solid #070707;
 }
 
-#nav-list a:hover {
-  background: #E7E7E7;
+#nav-menu a:hover {
+  background-color: #817f7f;  
 }
-
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 2px solid #070707;
@@ -49,15 +54,20 @@ body {
   margin-top: -70px;
 }
 
+/** End Header **/
+
+/** OUR MENU**/
 #menu-title + div {
   margin-bottom: 100px;
 }
 
 #menu-section {
+  margin-top: 30px;
   background: rgb(207, 204, 204);
 }
 
 section p {
-  font-size: 1.5em;  
-  padding: 20px;  
+  font-size: 1.3em; 
+  margin-top: 10px; 
 }
+/** End Our Menu**/
