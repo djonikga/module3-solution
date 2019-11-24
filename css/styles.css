@@ -69,6 +69,11 @@ section p {
   margin-top: 10px;  
 }
 
+section span {
+  font-size: 1.2em; 
+  font-weight: bold;
+}
+
 .menu-item {
   padding: 10px;
   background: rgb(207, 204, 204);  
